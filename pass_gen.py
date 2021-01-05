@@ -27,7 +27,7 @@ _______________________________________________________________________
         user choisen word: Lopas
         output: l8P@s
 _______________________________________________________________________
---3 Method _Randomly-Generated_
+--3. Method _Randomly-Generated_
 
 type 1,2 or 3 to choose method: """)
     if user_config['gen_method'] == '2' or user_config['gen_method'] == '3':
