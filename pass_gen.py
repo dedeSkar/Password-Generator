@@ -103,9 +103,7 @@ def check_if_all_included(gen_password, user_config):
     numbers = sym = upper = 'n'
     for i in range(0, len(gen_password)): 
         if gen_password[i] in string.digits: numbers = 'y'
-    for i in range(0, len(gen_password)): 
         if gen_password[i] in string.punctuation: sym ='y'
-    for i in range(0, len(gen_password)): 
         if gen_password[i] in upper_list: upper ='y'
     if numbers == user_config['include_numbers'] and sym == user_config['include_sym'] and upper == user_config['include_upper']:
         return True
